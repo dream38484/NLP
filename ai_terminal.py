@@ -154,6 +154,8 @@ def to_do_commands(intent, names):
                     return f"File '{name}' does not exist."
     except Exception as e:
             return f"Error: {str(e)}"
+
+#main
     
 if __name__ == "__main__":
     print("Welcome to AI Terminal, enter your commands to make or delete folders, type quit to exit")
