@@ -1,0 +1,10 @@
+language: python
+python:
+  - "3.10"
+
+install:
+  - pip install -r requirements.txt
+  - python -m spacy download en_core_web_sm  # if you're using built-in models too
+
+script:
+  - python main.py
